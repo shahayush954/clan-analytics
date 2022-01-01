@@ -4,7 +4,7 @@ import  {
   applyMiddleware,
   compose
 } from "redux";
-import dataReducer from "./reducers/dataReducer";
+import { dataReducer } from "./reducers/dataReducer";
 import thunk from "redux-thunk";
 
 const initialState = {};
